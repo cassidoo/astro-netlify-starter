@@ -1,0 +1,72 @@
+---
+import { Markdown } from 'astro/components';
+import Counter from './Counter.jsx';
+---
+<article>
+  <section>
+    <Markdown>
+      ## 🚀 Project Structure
+
+      In this project, you'll see the following folders and files:
+
+      ```
+      /
+      ├── public/
+      │   ├── robots.txt
+      │   └── favicon.ico
+      ├── src/
+      │   ├── components/
+      │   │   └── Counter.jsx
+      │   │   └── Counter.module.css
+      │   │   └── Tour.astro
+      │   └── pages/
+      │       └── index.astro
+      ├── netlify.toml
+      └── package.json
+      ```
+
+      Static assets can be placed in the `public/` directory.
+    </Markdown>
+  </section>
+
+  <!-- This Counter will only load the client side JS when it is visible on the page -->
+  <Counter:visible />
+
+  <section>
+    <p>Feel free to check out the <a href="https://github.com/snowpackjs/astro">Astro documentation</a>.</p>
+  </section>
+    
+</article>
+
+<style>
+    article {
+        padding-top: 2em;
+        line-height: 1.5;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        max-width: 70ch;
+    }
+
+    pre,
+    code {
+        font-family: var(--font-mono);
+        background: var(--color-light);
+        border-radius: 4px;
+    }
+
+    pre {
+        padding: 1em 1.5em;
+    }
+
+    .tree {
+        line-height: 1.2;
+    }
+
+    code:not(.tree) {
+        padding: 0.125em;
+        margin: 0 -0.125em;
+    }
+</style>

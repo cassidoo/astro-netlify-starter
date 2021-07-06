@@ -1,0 +1,30 @@
+---
+import Tour from '../components/Tour.astro';
+
+let title = 'My New Astro Site!';
+---
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{title}</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/style/global.css">
+  <link rel="stylesheet" href="/style/home.css">
+</head>
+
+<body>
+  <main>
+    <header>
+      <div>
+        <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
+        <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
+      </div>
+    </header>
+
+    <Tour />
+  </main>
+</body>
+</html>
