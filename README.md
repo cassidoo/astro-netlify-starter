@@ -1,6 +1,20 @@
 # Astro + Netlify Starter
 
-This is a starter project based on the [Astro Starter Kit](https://github.com/snowpackjs/astro/tree/main/examples/starter), with a `netlify.toml` configuration included, and an example React component + CSS Module.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9e561573-ed5f-4ef9-86d1-e098fa22429f/deploy-status)](https://app.netlify.com/sites/astro-netlify/deploys)
+
+This is an Astro (v0.16.1) starter project based on the [Astro Starter Kit](https://github.com/snowpackjs/astro/tree/main/examples/starter), with a `netlify.toml` configuration included, and an example React component + CSS Module.
+
+## Clone and Deploy
+
+You can instantly clone this to your GitHub and deploy it by clicking this button here:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/astro-netlify-starter)
+
+Or, if you'd like to just use the CLI and not deploy just yet, you can use `create-astro` with this as a template:
+
+```bash
+npm init astro my-new-project --template cassidoo/astro-netlify-starter
+```
 
 ## Commands
 
