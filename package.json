@@ -1,6 +1,6 @@
 {
   "name": "astro-netlify-starter",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -9,6 +9,6 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.21.5"
+    "astro": "^0.21.6"
   }
 }
