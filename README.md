@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9e561573-ed5f-4ef9-86d1-e098fa22429f/deploy-status)](https://app.netlify.com/sites/astro-netlify/deploys)
 
-This is an Astro (v0.20.11) starter project based on the [Astro Starter Kit](https://github.com/snowpackjs/astro/tree/main/examples/starter), with a `netlify.toml` configuration included, and an example React component + CSS Module.
+This is an Astro (v0.21.5) starter project based on the [Astro Starter Kit](https://github.com/withastro/astro/tree/main/examples/starter), with a `netlify.toml` configuration included, and an example React component + CSS Module.
 
 If you'd like to learn more about how Astro works, [here's an introductory blog post](https://dev.to/cassidoo/build-wicked-fast-sites-with-astro-an-introduction-173j)!
 
@@ -30,4 +30,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## Want to learn more?
 
-Feel free to check [the Astro documentation](https://github.com/snowpackjs/astro)!
+Feel free to check [the Astro documentation](https://docs.astro.build/getting-started/)!
